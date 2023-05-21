@@ -10,8 +10,8 @@ spec:
     image: veeranki2014/stress:v1
     imagePullPolicy: Always
     command: ["sleep", "200000"]
-    resorces:
-      request:
+    resources:
+      requests:
         cpu: "150m"
         memory: "200Mi"
       limits:
