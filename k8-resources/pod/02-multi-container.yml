@@ -3,6 +3,7 @@ kind: Pod
 
 metadata:
   name: multiple
+  namespace: roboshop
 
 spec:
   containers:
