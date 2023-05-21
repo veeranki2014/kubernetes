@@ -19,7 +19,13 @@ spec:
       cpu: "700m"      
       memory: "750Mi"
     type: Container
-...
+---
+apiVersion: v1
+kind: LimitRange
+
+metadata:
+  name: my-limit-range
+spec:
     limits:
   - default:
       cpu: "250m"
