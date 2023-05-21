@@ -12,11 +12,11 @@ spec:
     defaultLimits:
       cpu: "250m"
       mem: "500Mi"
-    min:
-      cpu: "500m"
-      mem: "500Mi"
-    max:
-      cpu: "1"      
-      mem: "1Gi"
+    # min:
+    #   cpu: "500m"
+    #   mem: "500Mi"
+    # max:
+    #   cpu: "1"      
+    #   mem: "1Gi"
     type: container
     
