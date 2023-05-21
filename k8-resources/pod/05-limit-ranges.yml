@@ -8,10 +8,10 @@ spec:
   limits:
   - default:
       cpu: "150m"
-      mem: "250Mi"
+      memory: "250Mi"
     defaultRequest:
       cpu: "250m"
-      mem: "500Mi"
+      memory: "500Mi"
     # min:
     #   cpu: "500m"
     #   mem: "500Mi"
