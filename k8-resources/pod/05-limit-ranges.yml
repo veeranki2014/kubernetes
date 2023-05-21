@@ -6,10 +6,10 @@ metadata:
 
 spec:
   limits:
-  - defaultRequests:
+  - default:
       cpu: "150m"
       mem: "250Mi"
-    defaultLimits:
+    defaultRequest:
       cpu: "250m"
       mem: "500Mi"
     # min:
