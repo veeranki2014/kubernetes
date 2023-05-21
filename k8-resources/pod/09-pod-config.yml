@@ -1,0 +1,21 @@
+apiVersin: v1
+kind: Pod
+metadata:
+  name: env_configmap
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  env:
+  - name: course
+    valueFrom: 
+      configMapKeyRef:
+        name: courese-config
+        key: course
+  - name: duration
+    valueFrom:
+      configMapkeyRef:
+        name: duration-config
+        key: duration      
+
+
