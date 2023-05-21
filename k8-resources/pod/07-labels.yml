@@ -6,8 +6,8 @@ metadata:
     course: kubernetes
     duration: 25hr
     trainer: anka
-  annotations: version:1.2.4.5
-
+  annotations: 
+    version: 1.2.4.5
 spec:
   containers:
   - name: nginx
