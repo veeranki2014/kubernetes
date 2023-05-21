@@ -18,5 +18,5 @@ spec:
     # max:
     #   cpu: "1"      
     #   mem: "1Gi"
-    type: container
+    type: Container
     
