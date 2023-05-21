@@ -8,7 +8,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    imagePullPolicy : always
+    imagePullPolicy : Always
 
 
 
