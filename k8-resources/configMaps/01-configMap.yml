@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: config-map
+data:
+  course: docker
+  duration: 25hrs
+  
+
