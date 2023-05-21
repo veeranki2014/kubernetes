@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: multiple
+
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.4
+
+  - name: sidecar
+    image: centos:8
+    command: ["sleep", "100000"]    
