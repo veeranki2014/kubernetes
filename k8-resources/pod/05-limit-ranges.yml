@@ -12,11 +12,11 @@ spec:
     defaultRequest:
       cpu: "150m"
       memory: "250Mi"
-    # min:
-    #   cpu: "500m"
-    #   mem: "500Mi"
-    # max:
-    #   cpu: "1"      
-    #   mem: "1Gi"
+    min:
+      cpu: "500m"
+      mem: "500Mi"
+    max:
+      cpu: "1"      
+      mem: "1Gi"
     type: Container
     
