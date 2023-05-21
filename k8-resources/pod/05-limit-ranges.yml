@@ -14,9 +14,9 @@ spec:
       memory: "250Mi"
     min:
       cpu: "500m"
-      mem: "500Mi"
+      memory: "500Mi"
     max:
-      cpu: "1"      
-      mem: "1Gi"
+      cpu: "700m"      
+      memory: "1Gi"
     type: Container
     
