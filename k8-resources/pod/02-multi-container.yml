@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: nginx
-    image: nginx:1.4
+    image: nginx
 
   - name: sidecar
     image: centos:8
